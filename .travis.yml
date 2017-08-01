@@ -8,4 +8,4 @@ env:
 
 
 script:
-- cd $PROJECT && sbt ++$TRAVIS_SCALA_VERSION test
+- cd $PROJECT && sbt ++$TRAVIS_SCALA_VERSION compile
