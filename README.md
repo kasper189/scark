@@ -16,4 +16,4 @@ Big Data Analysis with Scala and Spark
 ## Assignments
 * wikipedia
 * stackoverflow
-* timeusage
+* timeusage (to be pushed)
