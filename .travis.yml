@@ -1,0 +1,9 @@
+language: scala
+scala: 2.11.5
+jdk: oraclejdk8
+
+env:
+    - PROJECT=wikipedia
+
+script:
+- cd $PROJECT && sbt ++$TRAVIS_SCALA_VERSION test
