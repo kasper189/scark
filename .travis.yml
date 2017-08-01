@@ -5,5 +5,6 @@ jdk: oraclejdk8
 env:
     - PROJECT=wikipedia
 
+
 script:
 - cd $PROJECT && sbt ++$TRAVIS_SCALA_VERSION test
