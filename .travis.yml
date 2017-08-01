@@ -5,6 +5,7 @@ jdk: oraclejdk8
 env:
     - PROJECT=wikipedia
     - PROJECT=stackoverflow
+    - PROJECT=timeusage
 
 
 script:
